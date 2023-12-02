@@ -8,7 +8,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        pages: resolve(__dirname, 'download/index.html'),
+        download: resolve(__dirname, 'download.html'),
       },
     },
   },
