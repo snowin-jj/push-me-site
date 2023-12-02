@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Fugaz One';
+  src: url('/assets/fonts/FugazOne.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('/assets/fonts/WorkSans.ttf') format('truetype');
+}
+
+html {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.2em;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Fugaz One', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  overflow: hidden;
+}
+
+.icon {
+  width: 26px;
+  height: 26px;
+  display: block;
+  object-fit: contain;
+}
+
+.x_icon,
+.home_icon {
+  width: 20px;
+  height: 20px;
+}
+
+.primary_footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer_cta,
+.footer_links {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.footer_links {
+  gap: 0.8rem;
+}

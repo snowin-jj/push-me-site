@@ -1,0 +1,14 @@
+.download_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.download_link {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 2em;
+  text-decoration: underline;
+}
