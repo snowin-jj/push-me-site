@@ -5,6 +5,21 @@
   justify-content: center;
 }
 
+.home_wrapper p,
+.home_wrapper h1 {
+  text-align: center !important;
+}
+
 .home_wrapper h1 {
   font-size: 4em;
+}
+
+@media screen and (max-width: 680px) {
+  .home_wrapper {
+    padding-inline: 0.8rem;
+  }
+
+  .home_wrapper h1 {
+    font-size: 2em;
+  }
 }

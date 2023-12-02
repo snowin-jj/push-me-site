@@ -1,4 +1,4 @@
-import { animate, stagger } from 'motion';
+import { animate } from 'motion';
 
 document.addEventListener('DOMContentLoaded', () => {
   const links = document.querySelectorAll('.download_link');
@@ -9,10 +9,9 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       scale: [0, 1],
       opacity: [0, 1],
-      delay: stagger(0.2),
     },
     {
-      duration: 0.8,
+      duration: 0.6,
     }
   );
 
@@ -21,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       y: [28, 0],
       opacity: [0, 1],
-      delay: stagger(0.05),
+      delay: 0.05,
     },
     {
       duration: 0.8,

@@ -12,3 +12,10 @@
   font-size: 2em;
   text-decoration: underline;
 }
+
+@media screen and (max-width: 680px) {
+  .download_wrapper {
+    flex-direction: column;
+    padding-inline: 2rem;
+  }
+}

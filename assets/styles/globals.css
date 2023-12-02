@@ -74,3 +74,20 @@ body {
 .footer_links {
   gap: 0.8rem;
 }
+
+@media screen and (max-width: 680px) {
+  html {
+    font-size: 1em;
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .x_icon,
+  .home_icon {
+    width: 18px;
+    height: 18px;
+  }
+}
